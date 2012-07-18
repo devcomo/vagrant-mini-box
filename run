@@ -1,0 +1,5 @@
+#!/bin/sh
+
+vagrant up && vagrant provision
+
+echo 'now you can log in as www-deploy using the password "password"'
