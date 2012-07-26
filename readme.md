@@ -12,10 +12,16 @@ aside from vagrant, there is a www-deploy user that belongs to the
 www-data group. His password is 'password'.
 
 ## Running
-* install vagrant
+* install [Oracle Virtual Box](https://www.virtualbox.org/)
+* install [vagrant](http://vagrantup.com/)
 * clone this repo
-* type vagrant up
+* type vagrant up from the base directory
+* run ``vagrant up && vagrant provision``
 * profit
+
+## Additional Setup
+If you need to change the IP address used simply update the Vagrantfile with a different ip. 
+
 
 
 
